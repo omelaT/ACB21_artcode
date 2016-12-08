@@ -21,7 +21,7 @@ public class Task4_8 {
         int lastB = b % 10;
 
         if (lastA == lastB) {
-            System.out.println(true);
+            System.out.println("true");
         } else {
             System.out.println("false");
         }
