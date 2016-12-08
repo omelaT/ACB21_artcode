@@ -20,7 +20,7 @@ public class Task_add_5 {
         if (a==b && a==c && b==c){
             System.out.println("all is equal");
         }
-        else  if ( a== b || a==c) {
+        else  if ( a== b || a==c|| b==c) {
             System.out.println("One pair is equal");
         } else {
             System.out.println("no one pair is equal");
