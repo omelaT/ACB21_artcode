@@ -9,7 +9,7 @@ import java.util.Scanner;
  */
 public class Task_add_2 {
     public static void main(String[] args) {
-        int cub = 3;
+        
         Scanner scan = new Scanner(System.in);
         System.out.println("Enter first number");
         int a = scan.nextInt();
@@ -20,17 +20,17 @@ public class Task_add_2 {
 
 
         if (a > 0) {
-            a = (int) Math.pow(3, a);
+            a = (int) Math.pow(a, 3);
         } else {
             a = 0;
         }
         if (b > 0) {
-           b = (int) Math.pow(3, b);
+           b = (int) Math.pow(b, 3);
         } else {
             b = 0;
         }
         if (c > 0) {
-            c = (int) Math.pow(3, c);
+            c = (int) Math.pow(c, 3);
         } else {
             c = 0;
         }
