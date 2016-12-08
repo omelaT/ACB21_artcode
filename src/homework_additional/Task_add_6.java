@@ -7,10 +7,10 @@ public class Task_add_6 {
    public static void main (String[] args) {
         Scanner scan = new Scanner(System.in);
         System.out.println("введите значение скорости км/ч");
-        int v = scan.nextInt();
+        double v = scan.nextInt();
         System.out.println("введите значение расстояния км ");
-        int s = scan.nextInt();
-        int t = s / v;
+        double s = scan.nextInt();
+        double t = s / v;
         System.out.println(t + " час");
     }
 }
